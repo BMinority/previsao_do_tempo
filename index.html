@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0a60265145.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tempo.css">
+    <title>Previsao do Tempo</title>
+</head>
+<body>
+    <div id="container">
+        <form id="weather-form">
+            <h1>Aplicativo de Previsão do Tempo</h1>
+            <input type="text" id="city-input" placeholder="Insira o nome da cidade">
+            <button id="submit-button">Procurar</button>
+            <button type="reset" id="reset-button">Limpar informações</button>
+            <div id="weather-info">
+                <i id="weather-icon"></i>
+                <h3 id="city-name"></h3>
+                <h4 id="localtime"></h4>
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p id="humidity"></p>
+                <p id="wind-speed"></p>
+            </div>
+        </form>
+
+        <footer>Desenvolvido por Bruno Coelho.</footer>
+    </div>
+
+    <script src="tempo.js"></script>
+</body>
+</html>
